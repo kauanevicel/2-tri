@@ -6,72 +6,71 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Você está em um mercado e encontra uma nova marca de linguiça toscana. Qual é o seu primeiro pensamento?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                texto: "Isso parece delicioso!",
+                afirmacao: "Ficou animado para experimentar a nova linguiça toscana e começou a pensar em diferentes receitas para usá-la."
             },
             {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "Isso parece arriscado!",
+                afirmacao: "Sentiu receio de experimentar algo novo e decidiu que precisaria de mais informações sobre a marca antes de comprar."
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Você decide preparar um prato especial com a linguiça toscana e precisa escrever uma receita. Qual é a sua abordagem?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                texto: "Utiliza uma receita tradicional que encontrou na internet e adapta os ingredientes para incluir a linguiça toscana.",
+                afirmacao: "Conseguiu adaptar uma receita clássica para destacar a linguiça toscana, proporcionando uma refeição deliciosa e personalizada."
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                texto: "Cria uma receita original com base em suas próprias ideias e no que você acha que combina bem com a linguiça toscana.",
+                afirmacao: "Optou por usar sua criatividade para desenvolver uma receita nova, o que trouxe um toque pessoal e inovador ao prato."
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Durante um jantar com amigos, você discute o impacto das novas marcas de linguiça toscana no mercado. Qual é a sua opinião?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "Acredito que a diversidade de marcas e sabores é ótima, pois permite que os consumidores escolham produtos que atendam ao seu gosto.",
+                afirmacao: "Vê a variedade no mercado como uma oportunidade para explorar diferentes sabores e enriquecer a culinária."
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                texto: "Preocupo-me com a qualidade das novas marcas e prefiro apoiar marcas tradicionais que têm um histórico comprovado.",
+                afirmacao: "Sua preocupação com a qualidade motivou você a pesquisar mais sobre a origem e o processo de fabricação das linguiças toscanas."
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Você precisa criar um banner para uma feira gastronômica destacando a linguiça toscana. Como você faz isso?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                texto: "Desenvolve o banner usando um software de design gráfico para criar um visual atraente e informativo.",
+                afirmacao: "Utilizou suas habilidades de design para criar um banner que chamasse a atenção e promovesse a linguiça toscana de forma eficaz."
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                texto: "Usa um gerador de imagens baseado em IA para criar gráficos e elementos visuais para o banner.",
+                afirmacao: "Aproveitou a tecnologia para criar rapidamente um banner visualmente interessante, e agora está aprendendo a usar essas ferramentas de forma ainda mais eficaz."
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "Seu grupo está preparando um evento de degustação de linguiça toscana, mas um dos membros usou uma receita gerada por IA para o prato. O resultado parece bastante genérico. O que você faz?",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                texto: "Aceita a receita gerada pela IA e a utiliza como está, pois considera que a tecnologia pode ser uma boa base para criar pratos.",
+                afirmacao: "Percebeu que depender apenas de receitas geradas por IA pode resultar em algo menos pessoal e decidiu buscar um equilíbrio entre tecnologia e criatividade."
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                texto: "Revê a receita gerada pela IA e ajusta os ingredientes e o preparo com base em suas próprias preferências e experiência.",
+                afirmacao: "Reconheceu que a IA pode ser uma ferramenta útil, mas que a personalização e o toque pessoal são essenciais para criar uma experiência gastronômica única."
             }
         ]
     },
 ];
-
 
 let atual = 0;
 let perguntaAtual;
